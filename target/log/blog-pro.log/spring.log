@@ -1,0 +1,45 @@
+2020-11-05 22:06:14.458  INFO 9396 --- [main] com.blog.BlogApplication                 : Starting BlogApplication v0.0.1-SNAPSHOT on DESKTOP-0EFJUTK with PID 9396 (C:\Users\S2\Desktop\cblog\target\blog-0.0.1-SNAPSHOT.jar started by S2 in C:\Users\S2\Desktop\cblog\target)
+2020-11-05 22:06:14.461  INFO 9396 --- [main] com.blog.BlogApplication                 : The following profiles are active: test
+2020-11-05 22:06:18.320  INFO 9396 --- [main] com.blog.BlogApplication                 : Started BlogApplication in 4.358 seconds (JVM running for 4.824)
+2020-11-05 22:07:16.934  INFO 9396 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/, ip=127.0.0.1, classMethod=com.blog.controller.IndexController.toIndex, args=[1, {}])
+2020-11-05 22:07:18.338  INFO 9396 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:07:18.338  INFO 9396 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : Result: index
+2020-11-05 22:07:22.877  INFO 9396 --- [http-nio-10086-exec-5] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/blog/11, ip=127.0.0.1, classMethod=com.blog.controller.IndexController.toLogin, args=[11, {}])
+2020-11-05 22:07:22.950  INFO 9396 --- [http-nio-10086-exec-5] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:07:22.951  INFO 9396 --- [http-nio-10086-exec-5] com.blog.aspect.LogAspect                : Result: blog
+2020-11-05 22:07:23.669  INFO 9396 --- [http-nio-10086-exec-7] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/comments/11, ip=127.0.0.1, classMethod=com.blog.controller.CommentController.comments, args=[11, {}])
+2020-11-05 22:07:23.687  INFO 9396 --- [http-nio-10086-exec-7] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:07:23.687  INFO 9396 --- [http-nio-10086-exec-7] com.blog.aspect.LogAspect                : Result: blog :: commentList
+2020-11-05 22:07:29.038  INFO 9396 --- [http-nio-10086-exec-10] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/tags/-1, ip=127.0.0.1, classMethod=com.blog.controller.TagShowController.types, args=[-1, 1, {}])
+2020-11-05 22:07:29.103  INFO 9396 --- [http-nio-10086-exec-10] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:07:29.104  INFO 9396 --- [http-nio-10086-exec-10] com.blog.aspect.LogAspect                : Result: tags
+2020-11-05 22:07:30.236  INFO 9396 --- [http-nio-10086-exec-8] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/archives, ip=127.0.0.1, classMethod=com.blog.controller.ArchiveShowController.archives, args=[{}])
+2020-11-05 22:07:30.260  INFO 9396 --- [http-nio-10086-exec-8] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:07:30.261  INFO 9396 --- [http-nio-10086-exec-8] com.blog.aspect.LogAspect                : Result: archives
+2020-11-05 22:07:31.239  INFO 9396 --- [http-nio-10086-exec-3] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/about, ip=127.0.0.1, classMethod=com.blog.controller.AboutShowController.about, args=[])
+2020-11-05 22:07:31.244  INFO 9396 --- [http-nio-10086-exec-3] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:07:31.244  INFO 9396 --- [http-nio-10086-exec-3] com.blog.aspect.LogAspect                : Result: about
+2020-11-05 22:09:32.327  INFO 9396 --- [http-nio-10086-exec-8] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/about, ip=127.0.0.1, classMethod=com.blog.controller.AboutShowController.about, args=[])
+2020-11-05 22:09:32.328  INFO 9396 --- [http-nio-10086-exec-8] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:09:32.328  INFO 9396 --- [http-nio-10086-exec-8] com.blog.aspect.LogAspect                : Result: about
+2020-11-05 22:09:34.582  INFO 9396 --- [http-nio-10086-exec-6] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/about, ip=127.0.0.1, classMethod=com.blog.controller.AboutShowController.about, args=[])
+2020-11-05 22:09:34.582  INFO 9396 --- [http-nio-10086-exec-6] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:09:34.583  INFO 9396 --- [http-nio-10086-exec-6] com.blog.aspect.LogAspect                : Result: about
+2020-11-05 22:09:37.177  INFO 9396 --- [http-nio-10086-exec-5] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/about, ip=127.0.0.1, classMethod=com.blog.controller.AboutShowController.about, args=[])
+2020-11-05 22:09:37.179  INFO 9396 --- [http-nio-10086-exec-5] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:09:37.179  INFO 9396 --- [http-nio-10086-exec-5] com.blog.aspect.LogAspect                : Result: about
+2020-11-05 22:14:02.145  INFO 1632 --- [main] com.blog.BlogApplication                 : Starting BlogApplication v0.0.1-SNAPSHOT on DESKTOP-0EFJUTK with PID 1632 (C:\Users\S2\Desktop\cblog\target\blog-0.0.1-SNAPSHOT.jar started by S2 in C:\Users\S2\Desktop\cblog\target)
+2020-11-05 22:14:02.149  INFO 1632 --- [main] com.blog.BlogApplication                 : The following profiles are active: test
+2020-11-05 22:14:06.020  INFO 1632 --- [main] com.blog.BlogApplication                 : Started BlogApplication in 4.379 seconds (JVM running for 4.838)
+2020-11-05 22:14:17.793  INFO 1632 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/about, ip=127.0.0.1, classMethod=com.blog.controller.AboutShowController.about, args=[])
+2020-11-05 22:14:17.806  INFO 1632 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:14:17.807  INFO 1632 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : Result: about
+2020-11-05 22:25:51.915  INFO 17252 --- [main] com.blog.BlogApplication                 : Starting BlogApplication v0.0.1-SNAPSHOT on DESKTOP-0EFJUTK with PID 17252 (C:\Users\S2\Desktop\cblog\target\blog-0.0.1-SNAPSHOT.jar started by S2 in C:\Users\S2\Desktop\cblog\target)
+2020-11-05 22:25:51.919  INFO 17252 --- [main] com.blog.BlogApplication                 : The following profiles are active: test
+2020-11-05 22:25:56.518  INFO 17252 --- [main] com.blog.BlogApplication                 : Started BlogApplication in 5.131 seconds (JVM running for 5.598)
+2020-11-05 22:26:03.836  INFO 17252 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/, ip=127.0.0.1, classMethod=com.blog.controller.IndexController.toIndex, args=[1, {}])
+2020-11-05 22:26:05.373  INFO 17252 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:26:05.373  INFO 17252 --- [http-nio-10086-exec-1] com.blog.aspect.LogAspect                : Result: index
+2020-11-05 22:26:07.629  INFO 17252 --- [http-nio-10086-exec-3] com.blog.aspect.LogAspect                : Request: LogAspect.RequestLog(url=http://127.0.0.1:10086/about, ip=127.0.0.1, classMethod=com.blog.controller.AboutShowController.about, args=[])
+2020-11-05 22:26:07.645  INFO 17252 --- [http-nio-10086-exec-3] com.blog.aspect.LogAspect                : ------------doAfter------------
+2020-11-05 22:26:07.648  INFO 17252 --- [http-nio-10086-exec-3] com.blog.aspect.LogAspect                : Result: about
