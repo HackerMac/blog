@@ -1191,7 +1191,7 @@ public class MarkdownUtils {
                 "| LPL  | SKT  | LCL    |\n" +
                 "| 永远滴神  | YYDS | 联动 |\n" +
                 "\n";
-        String a = "[imCoding 爱编程](http://www.lirenmi.cn)";
+        String a = "[imCoding 爱编程](http://blog.sakuramk.cn)";
         System.out.println(markdownToHtmlExtensions(a));
     }
 }
